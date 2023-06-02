@@ -13,5 +13,8 @@ print(oct(int(b)))
 d = 0X1A
 print(d)
 print(b+d)
+c = 0o17
+print(c)
+print(oct(c))
 
 
