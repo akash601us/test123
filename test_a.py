@@ -16,5 +16,20 @@ print(b+d)
 c = 0o17
 print(c)
 print(oct(c))
-
-
+e = 3+2j
+print(e)
+print(abs(e))
+r=round(abs(e),2)
+print(r)
+firstName= "Akash"
+print(firstName)
+fullName= "Akash R Patel"
+print(fullName)
+score1 = input("Enter the score 1: 49")
+score2 = input("Enter the score 2: 99")
+totalString = score1 + score2
+messageString = "Total score is %s"
+print(messageString % totalString)
+totalInt = int(score1) + int(score2)
+messageString = "Total score is %s"
+print(messageString % totalInt)
