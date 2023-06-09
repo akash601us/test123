@@ -21,26 +21,16 @@ class Car():
 
 xyz = Car()
 xyz.suv("Alto")
-# self, abc ):
-#         print(abc)
-# xyz.hatchback("mustang")
 
 
-# honda = ['accord', 'crv', 'hrv', 'civic']
-# suv = ['crv', 'hrv']
-# hatchback = ['accord', 'civic']
-#
-# if 'accord' in honda:
-#     print("Accord is a Honda model")
-# else:
-#     print("Not a Honda model")
-#
-#
-#
-# class Car:
-#     def car_model(self, X ):
-#         if x=
-#         print("this is suv")
-#
-# c = Car()
-# c.suv()
+Subject = {'Science': ['maths', 'physics', 'chemistry', 'biology'],
+           'commerce': ['economics', 'business studies', 'financial management', 'policy'],
+           'Arts': ['history', 'geography', 'political science']}
+
+engineering = ['maths', 'physics']
+medical = ['biology', 'chemistry']
+accounting = ['business studies', 'policy']
+journalism = ['history', 'political science']
+
+
+class
