@@ -19,19 +19,29 @@ class Stream():
         else:
             print("No, You are not eligible for Engineering")
 
-    # def med(self, bca):
-    #     for i in Subject:
-    #         if bca in Subject[i]:
-    #             print("Your stream is", i)
-    #     while bca in medical:
-    #         print("yes, you are eligible for Medical ")
-    #     else:
-    #         print("No, You are not eligible for Medical")
+    def med(self, bca):
+        for i in Subject:
+            if bca in Subject[i]:
+                print("Your stream is", i)
+        if bca in medical:
+            print("yes, you are eligible for Medical ")
+        else:
+            print("No, You are not eligible for Medical")
 
+    # def acc(self, cba):
+    #     for i in Subject:
+    #         if cba in Subject[i]:
+    #             print("Your stream is", i)
+    #     if cba in Stream:
+    #         print("yes, you are eligible for Accounting ")
+    #     else:
+    #         print("No, You are not eligible for Accounting")
 
 xyz = Stream()
 xyz.engineering("maths")
 
-# zxa = Stream()
-# zxa.med("biology")
+zxa = Stream()
+zxa.med("biology")
 
+# zyx = Stream()
+# zyx.acc("policy")
